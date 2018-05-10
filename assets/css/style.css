@@ -3,3 +3,97 @@ body,html{
     width: 100%;
     overflow-x: none;
 }
+
+body{
+    background: #000000;
+    overflow-y: hidden;
+}
+
+*{
+    padding: 0 !important;
+}
+
+.owls{
+    height: 300px;
+    width: 200px;
+    filter: brightness(130%);
+    margin-top: 50%;
+}
+
+.rightOwl{
+    filter: brightness(0%);
+}
+
+.profileDiv{
+    background-color: #F9F9F9;
+}
+
+#profileImg{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #222222;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: -24px;
+}
+
+.vid{
+    margin-top: 10%;
+    height: 360px;
+    width: 640px;
+    margin-left: -22px !important;
+    z-index: 0 !important;
+}
+
+
+.bottomVidDiv{
+    width: 640px;
+    height: 180px;
+    background-color: black;
+    margin-left: -22px !important;
+    margin-top: -221px;
+    z-index: 1 !important;
+    /* animation: myFrames 25s; */
+}
+
+/* @keyframes myFrames{
+
+    44% {
+
+        height: 180px;
+
+    }
+
+    100%{
+        height: 0;
+    }
+} */
+
+.bottomVidDiv2{
+    width: 640px;
+    height: 180px;
+    background-color: black;
+    margin-left: -22px !important;
+    margin-top: -324px;
+    z-index: 1 !important;
+    /* animation: myFrames 25s; */
+}
+
+#content{
+    display: none;
+}
+
+#beginBtn{
+    width: 400px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 90px;
+    background: #760b76 !important;
+    border: 1px solid #760b76;
+}
+
+.cross{
+    height: 178px;
+    width: 178px;
+    margin-top: 210px;
+}
