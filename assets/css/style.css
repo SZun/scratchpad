@@ -52,14 +52,27 @@ body{
         margin-left: -22px !important;
 
     }
-    44% {
+    47.5% {
 
         height: 0;
         margin-left: -22px !important;
 
     }
 
-    100%{
+    48% {
+
+        height: 180px;
+        margin-left: -22px !important;
+
+    }
+    95.9% {
+
+        height: 180px;
+        margin-left: -22px !important;
+
+    }
+
+    96%{
         height: 360px;
         margin-left: -22px !important;
     }
