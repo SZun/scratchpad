@@ -1,110 +1,40 @@
 body,html{
     height: 100%;
     width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 body{
-    background: url('../images/dark-triangles.png');
-    overflow-y: hidden;
+    background: lightcoral;
 }
 
-*{
-    padding: 0 !important;
+.form-control{
+    width: 205% !important;
 }
 
-.owls{
-    height: 300px;
-    width: 220px;
-    filter: brightness(130%);
-    margin-top: 50%;
-}
-
-.rightOwl{
-    filter: brightness(0%);
-}
-
-.profileDiv{
-    background-color: #F9F9F9;
-}
-
-#profileImg{
-    height: 200px;
-    width: 200px;
-    border: 1px solid #222222;
+.userIcon{
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    margin-top: 5%;
-    margin-bottom: -24px;
 }
 
-.vid{
-    margin-top: 10%;
-    width: 640px;
-    margin-left: -22px !important;
-    z-index: 0 !important;
-    animation: myFrames 25s  ease-in-out !important;
+tr,td{
+    font-size: 20px;
+    color: orange;
 }
 
-@keyframes myFrames{
-
-    0%{
-        height: 0;
-        margin-left: -22px !important;
-
-    }
-    47.5% {
-
-        height: 0;
-        margin-left: -22px !important;
-
-    }
-
-    48% {
-
-        height: 180px;
-        margin-left: -22px !important;
-
-    }
-    95.9% {
-
-        height: 180px;
-        margin-left: -22px !important;
-
-    }
-
-    96%{
-        height: 360px;
-        margin-left: -22px !important;
-    }
+.banner:hover{
+    color: #d9534f;
+    background-color: #FFFFFF;
 }
 
-#content{
-    display: none;
+.glyphicon-ok{
+    color: green !important;
 }
 
-
-
-.cross{
-    height: 178px;
-    width: 178px;
-    margin-top: 6%;
+.glyphicon-remove{
+    color: red !important;
 }
-
-button{
-    margin-top: 300px !important;
-    margin-top: 60px !important;
-    font-family: 'Skranji', cursive;
-    font-size: 40px !important;
-    background-color: #3f51b5 !important;
-    color: #FFFFFF !important;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12) !important;
-    border-radius: none !important;
-}
-
-#beginBtn{
-    width: 400px;
-    height: 50px;
-    margin-top: 380px !important;
-    margin-left: 90px;
-    border: none;
+h2{
+    color: #FFA500;
 }
